@@ -1,15 +1,17 @@
 <p align="left">
   <a href="https://www.ubisoft.com/pt-br/" target="_blank" >
     <img alt="CakePHP" src="https://i.ibb.co/HtCJvMV/LOGO.png" width="400" />
-
-<p align="right">
-  <a href="https://www.ubisoft.com/pt-br/" target="_blank" >
     <img alt="CakePHP" src="https://i.imgur.com/T3edKsK.gif?noredirect" width="400" />
   </a>
 </p>
+
+<!-- <p align="right">
+  <a href="https://www.ubisoft.com/pt-br/" target="_blank" >
+    
+  
   </a>
 </p>
-
+-->
 [Rainbow Six Siege](https://www.ubisoft.com/pt-br/game/rainbow-six/siege/), também conhecido 
 como "Tom Clancy's Rainbow Six: Siege", foi desenvolvido pela empresa francesa
 Ubisoft. Seu lançamento aconteceu no dia 1 de dezembro de 2015 para Xbox One,
