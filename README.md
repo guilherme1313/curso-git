@@ -5,23 +5,6 @@
   </a>
 </p>
 
-<!-- Div to draw the effect -->
-<div class="my-div"></div>
-
-<!-- library needed -->
-<script src="three.min.js"></script>
-<script src="TweenMax.min.js"></script>
-
-<script src="dist/hover.umd.js"></script>
-<script>
-    var myAnimation = new hoverEffect({
-        parent: document.querySelector('.my-div'),
-        intensity: 0.3,
-        image1: 'images/myImage1.jpg',
-        image2: 'images/myImage2.jpg',
-        displacementImage: 'images/myDistorsionImage.png'
-    });
-</script>
 [Rainbow Six Siege](https://www.ubisoft.com/pt-br/game/rainbow-six/siege/), também conhecido 
 como "Tom Clancy's Rainbow Six: Siege", foi desenvolvido pela empresa francesa
 Ubisoft. Seu lançamento aconteceu no dia 1 de dezembro de 2015 para Xbox One,
