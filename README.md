@@ -5,7 +5,7 @@
 </p>
 <p align="right">
   <a href="https://www.ubisoft.com/pt-br/" target="_blank" >
-    <img alt="CakePHP" src="https://i.imgur.com/T3edKsK.gif?noredirect" width="800" />
+    <img alt="CakePHP" src="https://i.imgur.com/T3edKsK.gif?noredirect" width="400" />
   </a>
 </p>
 
