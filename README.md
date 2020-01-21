@@ -24,7 +24,7 @@
     </a>
 </p>
 
-[Rainbow Six Siege](https://www.ubisoft.com/pt-br/game/rainbow-six/siege/) jogo "Rainbow Six: Siege", também conhecido 
+[Rainbow Six Siege](https://www.ubisoft.com/pt-br/game/rainbow-six/siege/), também conhecido 
 como "Tom Clancy's Rainbow Six: Siege", foi desenvolvido pela empresa francesa
 Ubisoft. Seu lançamento aconteceu no dia 1 de dezembro de 2015 para Xbox One,
 PlayStation 4 e também para computadores com o sistema Windows, da Microsoft.
