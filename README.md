@@ -1,6 +1,6 @@
 <p align="left">
   <a href="https://www.ubisoft.com/pt-br/" target="_blank" >
-    <img alt="CakePHP" src="https://i.ibb.co/HtCJvMV/LOGO.png" width="400" height="220" />
+    <img alt="CakePHP" src="https://i.ibb.co/HtCJvMV/LOGO.png" width="400" height="222" />
     <img alt="CakePHP" src="https://i.imgur.com/T3edKsK.gif?noredirect" width="400" />
   </a>
 </p>
