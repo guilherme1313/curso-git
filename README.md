@@ -4,24 +4,7 @@
   </a>
 </p>
 <p align="center">
-    <a href="https://travis-ci.org/cakephp/cakephp" target="_blank">
-        <img alt="Build Status" src="https://img.shields.io/travis/cakephp/cakephp/master.svg?style=flat-square">
-    </a>
-    <a href="https://travis-ci.org/cakephp/cakephp" target="_blank">
-        <img alt="Build Status" src="https://img.shields.io/travis/cakephp/cakephp/master.svg?style=flat-square">
-    </a>
-    <a href="https://codecov.io/github/cakephp/cakephp" target="_blank">
-        <img alt="Coverage Status" src="https://img.shields.io/codecov/c/github/cakephp/cakephp.svg?style=flat-square">
-    </a>
-    <a href="https://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/" target="_blank">
-        <img alt="Code Consistency" src="https://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/grade.svg">
-    </a>
-    <a href="https://packagist.org/packages/cakephp/cakephp" target="_blank">
-        <img alt="Total Downloads" src="https://img.shields.io/packagist/dt/cakephp/cakephp.svg?style=flat-square">
-    </a>
-    <a href="https://packagist.org/packages/cakephp/cakephp" target="_blank">
-        <img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/cakephp/cakephp.svg?style=flat-square&label=stable">
-    </a>
+    <img href="08f5d1e7c216b48f3f304df13e84f37fe822230d"></a>
 </p>
 
 [Rainbow Six Siege](https://www.ubisoft.com/pt-br/game/rainbow-six/siege/), também conhecido 
