@@ -1,7 +1,7 @@
 <p align="left">
   <a href="https://www.ubisoft.com/pt-br/" target="_blank" >
-    <img alt="CakePHP" src="https://i.ibb.co/HtCJvMV/LOGO.png" width="500" height="225" />
-    <img alt="CakePHP" src="https://thumbs.gfycat.com/CompassionateDefiantBandicoot-size_restricted.gif" width="500" />
+    <img alt="CakePHP" src="https://i.ibb.co/HtCJvMV/LOGO.png" width="400" height="225" />
+    <img alt="CakePHP" src="https://thumbs.gfycat.com/CompassionateDefiantBandicoot-size_restricted.gif" width="400" />
   </a>
 </p>
 
