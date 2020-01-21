@@ -1,117 +1,91 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="estilo.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js.js"></script>
-	<title>Rainbow Six Siege 2020</title>
-	<style type="text/css">
-*{
-padding: 0px;
-margin:0px;
-}
-body{
-background-color: black;
-text-align: center;
-font-weight: 400;
-font-family: fantasy;
-font-size: 20px;
-background: url("img/fundo.png"); 
-background-size: 100%;
-background-repeat: no-repeat;
-}
-ul{
-	list-style: none;
-}
-a{
-	text-decoration: none;
-	color:white;
-	padding: 0px 10px;
-}
-nav{
-	background-color: black;
-	height: auto;
+<p align="center">
+  <a href="https://cakephp.org/" target="_blank" >
+    <img alt="CakePHP" src="https://cakephp.org/v2/img/logos/CakePHP_Logo.svg" width="400" />
+  </a>
+</p>
+<p align="center">
+    <a href="LICENSE" target="_blank">
+        <img alt="Software License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square">
+    </a>
+    <a href="https://travis-ci.org/cakephp/cakephp" target="_blank">
+        <img alt="Build Status" src="https://img.shields.io/travis/cakephp/cakephp/master.svg?style=flat-square">
+    </a>
+    <a href="https://codecov.io/github/cakephp/cakephp" target="_blank">
+        <img alt="Coverage Status" src="https://img.shields.io/codecov/c/github/cakephp/cakephp.svg?style=flat-square">
+    </a>
+    <a href="https://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/" target="_blank">
+        <img alt="Code Consistency" src="https://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/grade.svg">
+    </a>
+    <a href="https://packagist.org/packages/cakephp/cakephp" target="_blank">
+        <img alt="Total Downloads" src="https://img.shields.io/packagist/dt/cakephp/cakephp.svg?style=flat-square">
+    </a>
+    <a href="https://packagist.org/packages/cakephp/cakephp" target="_blank">
+        <img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/cakephp/cakephp.svg?style=flat-square&label=stable">
+    </a>
+</p>
 
-}
-ul#ul-principal{	
-	text-align: center;
-	background-color: transparent;
-	width: auto;
-	margin-left: 55px;
-	margin-top: 1px; 
-}
-.li-p{
-	line-height: 50px;
-	float: left;
-	margin-left: 30px;	
-}
-a: hover{
-	background-color: rgba(255,255,255,.3);
-}
-.li-p:hover .li-p-links{
-	display: block;
-	background-color: #000;	
-	background-color: #36a9e0;
-}
-.li-p:hover{
-	display: block;
-	background-color: #36a9e0;
-}
-.li-p:first-child:hover{
-	background-color: none;
-}
-.li-p:hover .seta{
-	display: block;
-	background-color: #36a9e0;
-}
-.li-p-links{
-	display: none;	
-}
-.ubi{
-	margin-right: 60px;
-}
+[CakePHP](https://cakephp.org) is a rapid development framework for PHP which
+uses commonly known design patterns like Associative Data
+Mapping, Front Controller, and MVC.  Our primary goal is to provide a structured
+framework that enables PHP users at all levels to rapidly develop robust web
+applications, without any loss to flexibility.
 
+## Installing CakePHP via Composer
 
-	</style>
-</head>
-<body>
+You can install CakePHP into your project using
+[Composer](https://getcomposer.org).  If you're starting a new project, we
+recommend using the [app skeleton](https://github.com/cakephp/app) as
+a starting point. For existing applications you can run the following:
 
-	<nav>
+``` bash
+$ composer require cakephp/cakephp
+```
 
-	<ul id="ul-principal">
+## Running Tests
 
-	<!-- <div class="ubi"> -->
+Assuming you have PHPUnit installed system wide using one of the methods stated
+[here](https://phpunit.de/manual/current/en/installation.html), you can run the
+tests for CakePHP by doing the following:
 
-	<<a href="https://www.ubisoft.com/pt-br/"><input type="image" src="img/ubi.png" alt="Submit" width="60" height="49"></a>		
-		
-	<li class="li-p"><a href="#"><img src="img/LOGO.png" width="170" height="60"></a></li>
-	
+1. Copy `phpunit.xml.dist` to `phpunit.xml`.
+2. Add the relevant database credentials to your `phpunit.xml` if you want to run tests against
+   a non-SQLite datasource.
+3. Run `phpunit`.
 
-	<li class="li-p"><a href="javascript://" class=".bt1">NOTÍCIAS</a>
-	<li class="li-p"><a href="#">INFORMAÇÕES DO JOGO<img class="seta" src="img/seta.png" width="15" height="15"></a>
-	
-<ul class="li-p-links">
-	<li><a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info">VISÃO GERAL</a></li>
-	<li><a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/operators">AGENTES</a></li>
-	<li><a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/maps">MAPAS</a></li>
+## Some Handy Links
 
-</ul></li>
+* [CakePHP](https://cakephp.org) - The rapid development PHP framework.
+* [CookBook](https://book.cakephp.org) - The CakePHP user documentation; start learning here!
+* [API](https://api.cakephp.org) - A reference to CakePHP's classes.
+* [Awesome CakePHP](https://github.com/FriendsOfCake/awesome-cakephp) - A list of featured resources around the framework.
+* [Plugins](https://plugins.cakephp.org) - A repository of extensions to the framework.
+* [The Bakery](https://bakery.cakephp.org) - Tips, tutorials and articles.
+* [Community Center](https://community.cakephp.org) - A source for everything community related.
+* [Training](https://training.cakephp.org) - Join a live session and get skilled with the framework.
+* [CakeFest](https://cakefest.org) - Don't miss our annual CakePHP conference.
+* [Cake Software Foundation](https://cakefoundation.org) - Promoting development related to CakePHP.
 
-	<li class="li-p"><a href="#">TEMPORADAS</a>
-	<li class="li-p"><a href="#">PASSE DE TEMPORADA</a></li>
-	<li class="li-p"><a href="#">JOGADOR R6<img src="img/seta.png" width="15" height="15"></a>
+## Get Support!
 
-<ul class="li-p-links">
-	<li><a href="https://game-rainbow6.ubi.com/pt-br/home">MEU PERFIL</a></li>
-</ul></li>
+* [Slack](https://cakesf.herokuapp.com/) - Join us on Slack.
+* [#cakephp](https://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake.
+* [Forum](https://discourse.cakephp.org/) - Official CakePHP forum.
+* [GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
+* [Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
 
-</ul>
+## Contributing
 
-</div>
+* [CONTRIBUTING.md](.github/CONTRIBUTING.md) - Quick pointers for contributing to the CakePHP project.
+* [CookBook "Contributing" Section](https://book.cakephp.org/4/en/contributing.html) - Details about contributing to the project.
 
-</nav>
+# Security
 
-</body>
+If you’ve found a security issue in CakePHP, please use the following procedure instead of the normal bug reporting system. Instead of using the bug tracker, mailing list or IRC please send an email to security [at] cakephp.org. Emails sent to this address go to the CakePHP core team on a private mailing list.
 
-</html>
+For each report, we try to first confirm the vulnerability. Once confirmed, the CakePHP team will take the following actions:
+
+- Acknowledge to the reporter that we’ve received the issue, and are working on a fix. We ask that the reporter keep the issue confidential until we announce it.
+- Get a fix/patch prepared.
+- Prepare a post describing the vulnerability, and the possible exploits.
+- Release new versions of all affected versions.
+- Prominently feature the problem in the release announcement.
