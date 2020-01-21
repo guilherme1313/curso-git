@@ -1,10 +1,12 @@
-<p align="center">
+<p align="left">
   <a href="https://www.ubisoft.com/pt-br/" target="_blank" >
     <img alt="CakePHP" src="https://i.ibb.co/HtCJvMV/LOGO.png" width="400" />
   </a>
 </p>
-<p align="center">
-    <img href="https://i.imgur.com/T3edKsK.gif?noredirect"></a>
+<p align="right">
+  <a href="https://www.ubisoft.com/pt-br/" target="_blank" >
+    <img alt="CakePHP" src="https://i.imgur.com/T3edKsK.gif?noredirect" width="800" />
+  </a>
 </p>
 
 [Rainbow Six Siege](https://www.ubisoft.com/pt-br/game/rainbow-six/siege/), também conhecido 
