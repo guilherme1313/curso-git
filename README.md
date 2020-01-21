@@ -4,8 +4,8 @@
   </a>
 </p>
 <p align="center">
-    <a href="https://store.ubi.com/ofertas/home?lang=pt_BR" target="_blank">
-        <img alt="LOJA R6" src="https://ibb.co/MpQXSdz" width="70" height="20">
+    <a href="LOJA" target="_blank">
+        <img alt="Software License" src="https://store.ubi.com/ofertas/home?lang=pt_BR">
     </a>
     <a href="https://travis-ci.org/cakephp/cakephp" target="_blank">
         <img alt="Build Status" src="https://img.shields.io/travis/cakephp/cakephp/master.svg?style=flat-square">
