@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-    <img href="08f5d1e7c216b48f3f304df13e84f37fe822230d"></a>
+    <img href="https://i.imgur.com/T3edKsK.gif?noredirect"></a>
 </p>
 
 [Rainbow Six Siege](https://www.ubisoft.com/pt-br/game/rainbow-six/siege/), também conhecido 
