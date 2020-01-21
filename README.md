@@ -26,7 +26,7 @@ GUILHERME FERREIRA
 * E-mail: guilherme.borba@enext.com.br
 * Telefone: (11)99113-2465
 
-# MOTIVOS PELO DESENVOLVIMENTO DO SITE?
+## MOTIVOS PELO DESENVOLVIMENTO DO SITE?
 
 Conforme o aprendizado em GIT e GITHUB recentemente, decidi criar este README.md para aprimorar meus conhecimentos em GIT e GITHUB.
 * Abaixo possue as liguagens utilizadas para o desenvolvimento do site!
