@@ -39,14 +39,6 @@ Você pode instalar o Rainbow Six Siege no seu computador clicando ao lado
 
 * [NERD ENGENHEIRO](https://www.youtube.com/channel/UCn2IblmswYnBL62nDDhYjew) - Tutoriais e dicas sobre o game!
 
-## Get Support!
-
-* [Slack](https://cakesf.herokuapp.com/) - Join us on Slack.
-* [#cakephp](https://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake.
-* [Forum](https://discourse.cakephp.org/) - Official CakePHP forum.
-* [GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
-* [Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
-
 ## CONTATO COM O DESENVOLVEDOR DO GITHUB: 
 
 GUILHERME FERREIRA 
