@@ -24,11 +24,10 @@
     </a>
 </p>
 
-[CakePHP](https://cakephp.org) is a rapid development framework for PHP which
-uses commonly known design patterns like Associative Data
-Mapping, Front Controller, and MVC.  Our primary goal is to provide a structured
-framework that enables PHP users at all levels to rapidly develop robust web
-applications, without any loss to flexibility.
+[Rainbow Six Siege](https://www.ubisoft.com/pt-br/game/rainbow-six/siege/) jogo "Rainbow Six: Siege", também conhecido 
+como "Tom Clancy's Rainbow Six: Siege", foi desenvolvido pela empresa francesa
+Ubisoft. Seu lançamento aconteceu no dia 1 de dezembro de 2015 para Xbox One,
+PlayStation 4 e também para computadores com o sistema Windows, da Microsoft.
 
 ## Installing CakePHP via Composer
 
