@@ -5,7 +5,7 @@
 </p>
 <p align="center">
     <a href="LICENSE" target="_blank">
-        <img alt="Software License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square">
+        <img alt="Software License" src="https://ibb.co/MpQXSdz">
     </a>
     <a href="https://travis-ci.org/cakephp/cakephp" target="_blank">
         <img alt="Build Status" src="https://img.shields.io/travis/cakephp/cakephp/master.svg?style=flat-square">
