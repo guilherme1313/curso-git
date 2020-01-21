@@ -5,7 +5,7 @@
 </p>
 <p align="center">
     <a href="LOJA" target="_blank">
-        <img alt="LOJA R6" src="https://i.ibb.co/xXS5d1p/LOJAR6.png">
+        <img alt="LOJA R6" src="https://i.ibb.co/xXS5d1p/LOJAR6.png" width="30">
     </a>
     <a href="https://travis-ci.org/cakephp/cakephp" target="_blank">
         <img alt="Build Status" src="https://img.shields.io/travis/cakephp/cakephp/master.svg?style=flat-square">
