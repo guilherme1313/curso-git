@@ -27,7 +27,7 @@ Você pode instalar o Rainbow Six Siege no seu computador clicando ao lado
 
 * [NERD ENGENHEIRO](https://www.youtube.com/channel/UCn2IblmswYnBL62nDDhYjew) - Tutoriais e dicas sobre o game!
 
-## CONTATO COM O DESENVOLVEDOR DO GITHUB: 
+## CONTATO COM O DESENVOLVEDOR DA PAGINA DO GITHUB: 
 
 GUILHERME FERREIRA 
 * E-mail: guilherme.borba@enext.com.br
