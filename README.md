@@ -29,12 +29,10 @@ como "Tom Clancy's Rainbow Six: Siege", foi desenvolvido pela empresa francesa
 Ubisoft. Seu lançamento aconteceu no dia 1 de dezembro de 2015 para Xbox One,
 PlayStation 4 e também para computadores com o sistema Windows, da Microsoft.
 
-## Installing CakePHP via Composer
+## COMO COMPRAR O JOGO?
 
-You can install CakePHP into your project using
-[Composer](https://getcomposer.org).  If you're starting a new project, we
-recommend using the [app skeleton](https://github.com/cakephp/app) as
-a starting point. For existing applications you can run the following:
+Você pode instalar o Rainbow Six Siege no seu computador clicando no link abaixo
+[Link para Compra](https://store.ubi.com/ofertas/tom-clancy-s-rainbow-six-siege/56c494ad88a7e300458b4d5a.html?lang=pt_BR). Nós recomendamos que antes de realizar a compra do jogo verifique se o seu Hardware suporta os requisitos mínimos! Para isso entre no site da Ubisoft e verifique se possue acessando o link ao lado [Link Ubisoft](https://support.ubisoft.com/pt-BR/Faqs/000024358/PC-Requisitos-para-Rainbow-Six-Siege?fallback=es). Não deixe de compartilhar essas informações com seus amigos! Obrigado!
 
 ``` bash
 $ composer require cakephp/cakephp
