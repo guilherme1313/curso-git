@@ -32,7 +32,7 @@ PlayStation 4 e também para computadores com o sistema Windows, da Microsoft.
 ## COMO COMPRAR O JOGO?
 
 Você pode instalar o Rainbow Six Siege no seu computador clicando ao lado
-[Compra](https://store.ubi.com/ofertas/tom-clancy-s-rainbow-six-siege/56c494ad88a7e300458b4d5a.html?lang=pt_BR). Nós recomendamos que antes de realizar a compra do jogo verifique se o seu Hardware suporta os requisitos mínimos! Para isso entre no site da Ubisoft e verifique se possue acessando ao lado[Ubisoft](https://support.ubisoft.com/pt-BR/Faqs/000024358/PC-Requisitos-para-Rainbow-Six-Siege?fallback=es). Não deixe de compartilhar essas informações com seus amigos! Obrigado!
+[Compra](https://store.ubi.com/ofertas/tom-clancy-s-rainbow-six-siege/56c494ad88a7e300458b4d5a.html?lang=pt_BR). Nós recomendamos que antes de realizar a compra do jogo verifique se o seu Hardware suporta os requisitos mínimos! Para isso entre no site da Ubisoft e verifique se possue acessando ao lado [Ubisoft](https://support.ubisoft.com/pt-BR/Faqs/000024358/PC-Requisitos-para-Rainbow-Six-Siege?fallback=es). Não deixe de compartilhar essas informações com seus amigos! Obrigado!
 
 ``` bash
 $ composer require cakephp/cakephp
