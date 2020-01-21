@@ -32,4 +32,4 @@ Conforme o aprendizado em GIT e GITHUB recentemente, decidi criar este README.md
 * Abaixo possue as liguagens utilizadas para o desenvolvimento do site!
 - HTML5.
 - CSS.
-- FUTURAMENTE JS.
+- Java Script.
