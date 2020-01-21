@@ -4,8 +4,8 @@
   </a>
 </p>
 <p align="center">
-    <a href="LOJA" target="_blank">
-        <img alt="Software License" src="https://store.ubi.com/ofertas/home?lang=pt_BR">
+    <a href="LICENSE" target="_blank">
+        <img alt="Software License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square">
     </a>
     <a href="https://travis-ci.org/cakephp/cakephp" target="_blank">
         <img alt="Build Status" src="https://img.shields.io/travis/cakephp/cakephp/master.svg?style=flat-square">
