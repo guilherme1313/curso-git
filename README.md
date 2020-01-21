@@ -32,35 +32,12 @@ PlayStation 4 e também para computadores com o sistema Windows, da Microsoft.
 ## COMO COMPRAR O JOGO?
 
 Você pode instalar o Rainbow Six Siege no seu computador clicando ao lado
-[Compra](https://store.ubi.com/ofertas/tom-clancy-s-rainbow-six-siege/56c494ad88a7e300458b4d5a.html?lang=pt_BR). Nós recomendamos que antes de realizar a compra do jogo verifique se o seu Hardware suporta os requisitos mínimos! Para isso entre no site da Ubisoft e verifique se possue acessando ao lado [Ubisoft](https://support.ubisoft.com/pt-BR/Faqs/000024358/PC-Requisitos-para-Rainbow-Six-Siege?fallback=es). Não deixe de compartilhar essas informações com seus amigos! Obrigado!
+[Compra](https://store.ubi.com/ofertas/tom-clancy-s-rainbow-six-siege/56c494ad88a7e300458b4d5a.html?lang=pt_BR). Nós recomendamos que antes de realizar a compra do jogo verifique se o seu Hardware suporta os requisitos mínimos! Para isso entre no site da Ubisoft e verifique se possue acessando ao lado  [Ubisoft](https://support.ubisoft.com/pt-BR/Faqs/000024358/PC-Requisitos-para-Rainbow-Six-Siege?fallback=es). Não deixe de compartilhar essas informações com seus amigos! Obrigado!
 
-``` bash
-$ composer require cakephp/cakephp
-```
 
-## Running Tests
+## PARA AUXILIAR OS PRIMEIROS PASSOS NO JOGO:
 
-Assuming you have PHPUnit installed system wide using one of the methods stated
-[here](https://phpunit.de/manual/current/en/installation.html), you can run the
-tests for CakePHP by doing the following:
-
-1. Copy `phpunit.xml.dist` to `phpunit.xml`.
-2. Add the relevant database credentials to your `phpunit.xml` if you want to run tests against
-   a non-SQLite datasource.
-3. Run `phpunit`.
-
-## Some Handy Links
-
-* [CakePHP](https://cakephp.org) - The rapid development PHP framework.
-* [CookBook](https://book.cakephp.org) - The CakePHP user documentation; start learning here!
-* [API](https://api.cakephp.org) - A reference to CakePHP's classes.
-* [Awesome CakePHP](https://github.com/FriendsOfCake/awesome-cakephp) - A list of featured resources around the framework.
-* [Plugins](https://plugins.cakephp.org) - A repository of extensions to the framework.
-* [The Bakery](https://bakery.cakephp.org) - Tips, tutorials and articles.
-* [Community Center](https://community.cakephp.org) - A source for everything community related.
-* [Training](https://training.cakephp.org) - Join a live session and get skilled with the framework.
-* [CakeFest](https://cakefest.org) - Don't miss our annual CakePHP conference.
-* [Cake Software Foundation](https://cakefoundation.org) - Promoting development related to CakePHP.
+* [NERD ENGENHEIRO](https://www.youtube.com/channel/UCn2IblmswYnBL62nDDhYjew) - Tutoriais e dicas sobre o game!
 
 ## Get Support!
 
@@ -70,19 +47,16 @@ tests for CakePHP by doing the following:
 * [GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
 * [Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
 
-## Contributing
+## CONTATO COM O DESENVOLVEDOR DO GITHUB: 
 
-* [CONTRIBUTING.md](.github/CONTRIBUTING.md) - Quick pointers for contributing to the CakePHP project.
-* [CookBook "Contributing" Section](https://book.cakephp.org/4/en/contributing.html) - Details about contributing to the project.
+GUILHERME FERREIRA 
+* E-mail: guilherme.borba@enext.com.br
+* Telefone: (11)99113-2465
 
-# Security
+# MOTIVOS PELO DESENVOLVIMENTO DO SITE?
 
-If you’ve found a security issue in CakePHP, please use the following procedure instead of the normal bug reporting system. Instead of using the bug tracker, mailing list or IRC please send an email to security [at] cakephp.org. Emails sent to this address go to the CakePHP core team on a private mailing list.
-
-For each report, we try to first confirm the vulnerability. Once confirmed, the CakePHP team will take the following actions:
-
-- Acknowledge to the reporter that we’ve received the issue, and are working on a fix. We ask that the reporter keep the issue confidential until we announce it.
-- Get a fix/patch prepared.
-- Prepare a post describing the vulnerability, and the possible exploits.
-- Release new versions of all affected versions.
-- Prominently feature the problem in the release announcement.
+    Conforme o aprendizado em GIT e GITHUB recentemente, decidi criar este README.md para aprimorar meus conhecimentos em GIT e GITHUB.
+* Neste documento abaixo possue os arquivos utilizados para o desenvolvimento do site!
+- HTML5.
+- CSS.
+- FUTURAMENTE JS.
