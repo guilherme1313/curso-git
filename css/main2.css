@@ -1,0 +1,2215 @@
+body{
+  font-family: 'Bebas Neue', cursive;
+  background-image:url('https://static-dm.akamaized.net/siege/prod/r6s-bg-black.jpg');
+  margin:0;
+  zoom: 1;
+  padding:0;
+  width:100%;
+  }
+  .topnav {
+  background-color: black;
+  overflow: hidden;
+  height:75px;
+  }
+  .topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 40px;
+  text-decoration: none;
+  font-size: 24px;
+  }
+  .hvr-sweep-to-bottom{
+  margin-left:300px;
+  }
+  .hvr-sweep-to-bottom a{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  }
+  .hvr-sweep-to-bottom a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  }
+  .hvr-sweep-to-bottom a:hover, .hvr-sweep-to-bottom a:focus, .hvr-sweep-to-bottom a:active {
+  color: white;
+  }
+  .hvr-sweep-to-bottom a:hover:before, .hvr-sweep-to-bottom a:focus:before, .hvr-sweep-to-bottom a:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  }
+  .topnav .icon {
+  display: none;
+  }
+  @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+  float: right;
+  display: block;
+  }
+  }
+  /*      responsivo      */
+  @media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  }
+  .topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+  }
+  }
+  /*      responsivo      */
+  .top-right {
+  float: right;
+  }
+  .header{
+  background-color: #333;
+  margin-bottom:0px;
+  height:50px;
+  }
+  #ubi-logo{
+  padding-top:5px;
+  padding-left:25px;
+  }
+  #r6{
+  padding-left:25px;
+  width:175px;
+  position:absolute;
+  padding-top:13px;
+  }
+  .btn-compre{
+  float:right;
+  background-color: #2098D1;
+  color: white;
+  }
+  .btn-compre a{
+  margin-right:0px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  }
+  .btn-agentes{
+    float:right;
+    background-color: #2098D1;
+    color: white;
+    }
+    .btn-agentes a{
+    margin-right:0px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    }
+  .direita{
+  float:right;
+  }
+  .text-p{
+  text-align:center;
+  font-size:50px;
+  color:#ffffff;
+  }
+  .zoom {
+  overflow: hidden;
+  }
+  .left{
+  color:white;
+  width: 100%
+  }
+  .botoes{
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  }
+  .btn-direita{
+  font-family: 'Bebas Neue', cursive;
+  background-color: transparent;
+  color: white;
+  border:none;
+  float: right;
+  font-size: 50px;
+  margin-right:235px;
+  }
+  .btn-direita:hover{
+  box-shadow: inset 0 0 0 1px #53a7ea;
+  }
+  .btn-esquerda{
+  font-family: 'Bebas Neue', cursive;
+  background-color: transparent;
+  color:white;
+  border:none;
+  float: left;
+  font-size: 50px;
+  margin-left: 235px;
+  }
+  .btn-esquerda:hover{
+  box-shadow: inset 0 0 0 1px #53a7ea;
+  }
+  .img-1{
+  width: 50px;
+  margin-right: 10px;  
+  margin-top: 8px;
+  height: 50px;
+  }
+  .img-2{
+  width: 25px;
+  margin-left:10px;  
+  margin-top: 8px;
+  height: 50px;
+  }
+
+  /* hibana */
+
+  .hibana {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url('https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4a3bXHSd7wz9vRZzRC8Kzq/98dac79c29394be7f5ff4d363fce5140/R6-operator-hibana.png');
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .hibana {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+  /* blackbeard */
+  .blackbeard {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url('https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1FtCiVm4q4DsQNsLoT5nV0/2028bded87ef2fe2b255332f4245c525/R6-operator-blackbeard.png');
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .blackbeard {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+    /* buck */
+  .buck {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url('https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3YDi0a5YWFRwNzMoAjZstI/f2ebc37bde447faa664bcf160c63042d/R6-operator-buck.png');
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .buck {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+
+    /*    */
+  .gridlock {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url('https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/221q2yd28L3IAkjUGEFCke/51f431695fe53b30f7b384141b5e63ee/R6-operator-gridlock.png');
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .gridlock {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+   /*    */
+   
+  .nomad {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url('https://ubistatic19-a.akamaihd.net/resource/en-nordic/game/rainbow6/siege-v3/r6-operator-nomad_339959.png');
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .nomad {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .section-primary{
+    margin-left: 8%;
+    float: left;
+    margin-top: 3%;
+    display: inline-table;
+    width: 45%;
+  }
+  .section-secundary{
+    margin-top: 3%;
+    float:right;
+    display: inline-table;
+    width: 45%;
+  }
+  .container {
+  position: relative;
+  width: 37%;
+  display: inline-table;
+  }
+  .image {
+  width: 240px;
+  height: 240px;
+  }
+ .echo {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://vignette.wikia.nocookie.net/rainbowsix/images/a/aa/Echo_Portrait.png/revision/latest?cb=20171026143351");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .echo {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .frost {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4IrcYxDo6aVBQyxDOFirQE/852e6c6c0e8a46303469921efae3d6dc/R6-operator-frost.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .frost {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .valk {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-valkyrie_250319.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .valk {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .mozzie {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-mozzie_343388.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .mozzie {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .kaid {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-kaid_340052.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .kaid {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .amaru {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/en-nordic/game/rainbow6/siege-v3/r6-operator-amaru_353667.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .amaru {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .goyo {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-goyo_353668.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .goyo {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .nokk {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-nokk_349349.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .nokk {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .warden {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-warden_349350.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .warden {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .maverick {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://www.freepngimg.com/thumb/game/84415-rainbow-siege-six-soldier-fortnite-military-operation.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .maverick {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  
+  .clash {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-clash_332732.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .clash {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .kali {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-kali_358315.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .kali {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+   .wamai {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6S1qFckDJGp8NyVztOpbCE/86eaaab66472038666289cc2aefe3949/r6-operator-wamai_358316.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .wamai {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .zofia {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-zofia_306733.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .zofia {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .ela {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-ela_301980.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .ela {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+ .vigil {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/bPE2opWKKK0BPVx6I1H4b/4e15d30820900ecd0794ef90e1361d5a/R6-operator-vigil.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .vigil {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+ 
+.dokka {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2s5BCj0po76sK50EyDeNH5/63779ec1228021893847b361865956d1/R6-operator-dokkaebi.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .dokka {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .jackal {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-jackal_286950.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .jackal {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+ .mira {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-mira_286949.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .mira {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+ .capitao {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege/r6-operator-capitao_263015.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .capitao {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+.caveira {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://i.pinimg.com/originals/5d/75/c7/5d75c7cf9e42a754244fe3933b6070e2.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .caveira {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .maestro {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-maestro_324452.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .maestro {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .alibi {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-alibi_324451.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .alibi {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+.lion {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-lion.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .lion {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+.finka {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://i.pinimg.com/originals/cb/03/c4/cb03c418e7841c3e7b2001abddeb8115.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .finka {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .lesion {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-lesion_301941.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .lesion {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .ying {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4Oyf6w5rI0u9j4zMcWBSGz/ef22bcaca06cba29fdfa41e5ec921f7d/R6-operator-ying.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .ying {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .mute {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3gItFrDP0bBZsDXPdPp8ni/4314eb876028a87ae7fb20cc3215d3f6/R6-operator-mute.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .mute {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .smoke {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5NUuXBKokP1KmAGR8Q7fqE/9628143388fc1c2f50162c1ccdf94942/R6-operator-smoke.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .smoke {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .sledge {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://gamepedia.cursecdn.com/rainbowsixsiege_gamepedia/6/6c/Sledge.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .sledge {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .thatcher {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-thatcher_229937.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .thatcher {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .ash {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-ash_229846.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .ash {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .thermite{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-thermite_332555.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .thermite {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .pulse{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-pulse_229931.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .pulse {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .castle{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-castle_229882.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .castle {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .doc{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-doc_229883.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .doc {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+.rook{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/17CNRjTOFVKS1Q8Zou4ZVD/663dae86e2902f210bf2b1504904dbd0/R6-operator-rook.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .rook {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .jager{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/18FXPSsVVIDvyKvMi4cmnO/bac05dd81df9a8f48336babdc5030cff/R6-operator-jager.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .jager {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .bandit{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://1.bp.blogspot.com/-3v5UUFrIalE/WeSfC29gACI/AAAAAAAAE7g/a5ZNnJdqDhMQ3fe5UxpLlFKho0TpDAOwACLcBGAs/s1600/r6-operators-bandit_229880.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .bandit {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .kapkan{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://1.bp.blogspot.com/-2taONF5O2zU/WQeiZFv6z7I/AAAAAAAAEuU/7SX7rlCelug-yzdnzFn92q1pS3RDORg7QCLcB/s320/Kapkan.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .kapkan {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .tachanka{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-tachanka_229936.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .tachanka {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .montagne{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/37v1tD14BQ9A59vqXO7I9p/ba1d199bf7697f5ede61b93cdec60686/R6-operator-montagne.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .montagne {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .twitch{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-twitch_229845.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .twitch {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .iq{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-iq_229906.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .iq {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+.blitz{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/MlN3NUzTAYwPkFughKR23/19b3155bf7d69c7415cafa36f52f67e7/R6-operator-blitz.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .blitz {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .fuze{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-fuze_229884.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .fuze {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .glaz{
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1xYMcXH9CNiKHI5Wqoxw8y/ac8414157d7647ea8377dd5c7ce6d2bb/R6-operator-glaz.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .glaz {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  }
+    .bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+}
+.col-3 {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+   width: 400px;
+  height: 0 auto;
+}
+}
+.bloco-imagem {
+    height: auto ;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.bloco-imagem p {
+  font-size: 70px;
+  position: absolute;
+  margin-left: 43%;
+  text-align: center;
+  color: white;
+  bottom: 100px;
+  padding:5px;
+  justify-content: space-between;
+}
+.smoke-2{
+  float: right;
+}
+
+
+}
+.bloco-texto {
+    background-color:transparent;
+}
+.bloco-texto1  {
+    background-repeat: no-repeat;
+    width: 97%;
+    height: auto;
+    align-items: left;
+    background-size: 100%;
+    background-image: url(https://static-dm.akamaized.net/siege/prod/r6s-bg-generic.jpg);
+}
+h3 {
+    font-weight: normal!important;
+}
+.content {
+  width: 100%;
+} 
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  
+}
+.slideshow-container-fade{
+	display: block;
+}
+
+/* Hide the images by default */
+.mySlides.fade {
+  display: none;
+}
+
+.mySlides-fade{
+	display:none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  bottom:160px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top:99%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.footer h3 {
+  text-align: left;
+  }
+  
+  .footer {
+    margin-top: 4%;
+  background-image: url('../img/footer.png');
+  color: #ffffff;
+  padding-left: 11%;
+  display: inline-flex;
+  
+  }
+  .footer-2 {
+    background-image: url(../img/footer2.png);
+    color: #c1c1c1;
+    height: 90px;
+    padding-top: 1px;
+}
+  
+  
+  .footer p {
+  width: 90%;
+  text-align: left;
+  }
+  
+  .clock {
+  color: #898989!important;
+  }
+  
+  .clock:before {
+  content: '';
+  width:  15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url('../img/clock.png');
+  background-repeat: no-repeat;
+  padding-left: 5px;
+  }
+  
+  .local:before, .emailico:before, .telefoneico:before {
+  content: '';
+  width:  17px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+  }
+  .local:before {
+  background-image: url('../img/local.png');
+  }  
+  .emailico:before {
+  background-image: url('../img/emailico.png');
+  }  
+  .telefoneico:before {
+  background-image: url('../img/telefoneico.png');
+  }  
+
+  .col-4{
+    width: 80%;
+    margin-right: 114px;
+  }
+  .texto-footer {
+    margin-left: 33%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+}

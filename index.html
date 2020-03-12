@@ -1,117 +1,548 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="estilo.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js.js"></script>
-	<title>Rainbow Six Siege 2020</title>
-	<style type="text/css">
-*{
-padding: 0px;
-margin:0px;
-}
-body{
-background-color: black;
-text-align: center;
-font-weight: 400;
-font-family: fantasy;
-font-size: 20px;
-background: url("img/fundo.png"); 
-background-size: 100%;
-background-repeat: no-repeat;
-}
-ul{
-	list-style: none;
-}
-a{
-	text-decoration: none;
-	color:white;
-	padding: 0px 10px;
-}
-nav{
-	background-color: black;
-	height: auto;
+<link rel="stylesheet" type="text/css" href="./css/main.css">
 
-}
-ul#ul-principal{	
-	text-align: center;
-	background-color: transparent;
-	width: auto;
-	margin-left: 55px;
-	margin-top: 1px; 
-}
-.li-p{
-	line-height: 50px;
-	float: left;
-	margin-left: 30px;	
-}
-a: hover{
-	background-color: rgba(255,255,255,.3);
-}
-.li-p:hover .li-p-links{
-	display: block;
-	background-color: #000;	
-	background-color: #36a9e0;
-}
-.li-p:hover{
-	display: block;
-	background-color: #36a9e0;
-}
-.li-p:first-child:hover{
-	background-color: none;
-}
-.li-p:hover .seta{
-	display: block;
-	background-color: #36a9e0;
-}
-.li-p-links{
-	display: none;	
-}
-.ubi{
-	margin-right: 60px;
-}
+<link rel="stylesheet" type="text/css" href="./css/slick.css" />
 
+<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
 
-	</style>
+<link data-react-helmet="true" rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="https://static-dm.akamaized.net/siege/prod/favicon.ico">
+
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Tom Clancy's Rainbow Six Siege BR</title>
+
 </head>
+
 <body>
+<header class="menu-principal">
 
-	<nav>
+<main>
 
-	<ul id="ul-principal">
+    <div class="header-1">
+    <div class="logo">
+    <a href="index.html">
+    <img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5MK7X302z5WFxp5EarddHr/8a112c813d033e7a918bd5032a80c854/r6-logo.png" />        
+    </a>
+    </div> 
+    <div class="ubi">
+    <a href="index.html"><img id="ubisoft" src="./img/ubi-logo.png" />
+    </a>                 
+    </div>
 
-	<!-- <div class="ubi"> -->
+</main>
+</header>
 
-	<<a href="https://www.ubisoft.com/pt-br/"><input type="image" src="img/ubi.png" alt="Submit" width="60" height="49"></a>		
-		
-	<li class="li-p"><a href="#"><img src="img/LOGO.png" width="170" height="60"></a></li>
-	
-
-	<li class="li-p"><a href="javascript://" class=".bt1">NOTÍCIAS</a>
-	<li class="li-p"><a href="#">INFORMAÇÕES DO JOGO<img class="seta" src="img/seta.png" width="15" height="15"></a>
-	
-<ul class="li-p-links">
-	<li><a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info">VISÃO GERAL</a></li>
-	<li><a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/operators">AGENTES</a></li>
-	<li><a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/maps">MAPAS</a></li>
-
-</ul></li>
-
-	<li class="li-p"><a href="#">TEMPORADAS</a>
-	<li class="li-p"><a href="#">PASSE DE TEMPORADA</a></li>
-	<li class="li-p"><a href="#">JOGADOR R6<img src="img/seta.png" width="15" height="15"></a>
-
-<ul class="li-p-links">
-	<li><a href="https://game-rainbow6.ubi.com/pt-br/home">MEU PERFIL</a></li>
-</ul></li>
-
+<main class="col-100 menu-urls">
+<div class="header-2">
+<div class="menu">
+<ul>
+<li>
+<a href="index.html" style="font-family:'Anton';">INÍCIO</a>             
+</li>           
+<li>       
+<a href="mapas.html" style="font-family:'Anton';">MAPAS</a>                  
+</li>                  
+<li>   
+<a href="agentes.html" style="font-family:'Anton';">AGENTES</a>
+</li>
+<li>   
+    <a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/news-updates" style="font-family:'Anton';">NOTÍCIAS</a>  
+</li>
+<li>
+<a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/seasons" style="font-family:'Anton';">TEMPORADAS</a>
+</li>
+<li>
+<a href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/" style="font-family:'Anton';">COMPRE AGORA</a>
+</li>
 </ul>
+</div>
+<div class="busca">
+<input style="font-family: 'Bebas Neue', cursive; font-size:20px;" placeholder="PESQUISAR" type="text" />
+</div>
+</div>
+</main>
+
+<div class="col-100">
+<div class="slider-principal">
+<img src="./img/temp1.png"/>
+<img src="./img/temp2.png"/>
+<img src="./img/temp4.png"/>
+<img src="./img/temp.png"/>
+</div>
+</div>
+
+            <!--  DEFENSORES  -->
+
+<div class="col-100">
+
+<div class="content texto-destaque">
+<div class="p-1">
+
+<h1>Conheça agora os <strong>OPERADORES MAIS USADOS</strong> de 2019.</h1>
+
+<p>
+
+Com o começo da Season 8 da Pro League, veja quais operadores conquistaram a preferência dos atletas na temporada anterior
+
+</p>
+
+<h2 id="def">  DEFENSORES <img src="./img/def.png"></h2>
+
+<div class="col-3 bloco-texto">
+
+<a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/operators/mira">
+    <img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6wZplm8r956WXGrSYlULTU/0f9c0a33abfd42d9102723886850b8ca/R6-operator-mira.png" style="width: 140px; height: 120px;" /></a>
+
+<h3> Mira | PICKRATE: 84.1% </h3>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Quando o assunto é operador de defesa, Mira foi a favorita. A integrante do Grupo Especial de Operaciones (G.E.O.) é especialista em materiais à prova de balas, com destaque para seu gadget exclusivo, o Black Mirror. Este vidro laminado especializado pode ser posto em 
+paredes, reforçadas ou não, criando um espelho unidirecional, dando visão apenas ao time defensor.
+
+</a>
+
+</p>
 
 </div>
 
-</nav>
+<div class="col-3 bloco-texto">
 
+<a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/operators/smoke">
+    <img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5NUuXBKokP1KmAGR8Q7fqE/9628143388fc1c2f50162c1ccdf94942/R6-operator-smoke.png"  style="width: 140px; height: 120px;"/></a>
+
+<h3>Smoke | PICKRATE: 79.8%</h3>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Smoke faz jus ao nome. Integrante do Special Air Service (SAS), ele é um caçador de emoções que não se preocupa com a própria segurança. Seu gadget exclusivo é a Granada de Gás Composto Z8. Ela pode ser instalada na vertical ou horizontal e detonada remotamente, liberando um gás que mata qualquer um que fizer contato, seja amigo, inimigo, e até mesmo o refém.
+
+</a>
+
+</p>
+
+</div>
+
+<div class="col-3 bloco-texto">
+
+<a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/operators/jager">
+    <img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/18FXPSsVVIDvyKvMi4cmnO/bac05dd81df9a8f48336babdc5030cff/R6-operator-jager.png" style="width: 140px; height: 120px;" />
+</a>
+
+<h3>Jäger | PICKRATE: 54.7%</h3>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Jäger começou a carreira quando juntou-se à Bundespolizei (BPOL) como técnico de helicópteros. Veterano de operações antipirataria da 
+Grenzschutzgruppe 9 der Bundespolizei (GSG9) no Oceano Índico, ele participou da ação como piloto de helicóptero e consultor de 
+tecnologia. Seu gadget exclusivo é o sistema de defesa ativa, o ADS-MK IV, com o qual protege áreas contra bombas de ataques 
+aéreos.
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+                                <!--    ATACANTES       -->
+
+<div class="col-100">
+
+<div class="content texto-destaque">
+
+
+<div class="col-100">
+
+<div class="content texto-destaque">
+
+<h2>ATACANTES <img src="./img/ATK.png"></h2>
+
+</div>
+
+<div class="col-3 bloco-texto">
+
+    <a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/operators/lion">
+        <img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/O1pBwXRND1RV2WN5OrEr7/787e4d31e1b74ae9700ffac675205de3/R6-operator-lion.png"style="width: 140px; height: 120px;"/></a>
+
+<h3>Lion | PICKRATE: 94.7% </h3>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Entre os atacantes, Lion é o sucesso. O operador entrou para o exército francês aos 18 anos, após ser expulso de casa. Mais velho, foi recruato pelo Groupe d'Intervention de la Gendarmerie Nationale (GIGN) como especialista em perigos biológicos. O apelido de "Lion" foi ganho em missão Sudão, onde sua voz alta assustou a população local.
+
+</a>
+
+</p>
+
+</div>
+
+<div class="col-3 bloco-texto">
+
+<a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/operators/hibana">
+<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4a3bXHSd7wz9vRZzRC8Kzq/98dac79c29394be7f5ff4d363fce5140/R6-operator-hibana.png" style="width: 140px; height: 120px;" /></a>
+
+<h3>Hibana | PICKRATE: 75.4% </h3>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Hibana é especialista em acessar áreas de alto risco. Mestre em artes marciais, ganhou o apelido devido a liderança explosiva em campo. Versátil por conta do treinamento na SWAT do FBI e GIGN, ela trabalha bem em equipe e é em táticas de investida, o que motivou o recrutamento pela Prefectural Police Department Special Unit (SAT).
+
+</a>
+
+</p>
+
+</div>
+
+<div class="col-3 bloco-texto">
+
+<a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/operators/zofia">
+    <img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5KUunQgJWx9sVC0hFhHVAt/8fdff15ca50227328fb0589ecd8ccda0/R6-operator-zofia.png"style="width: 140px; height: 120px;"/>
+</a>
+<h3>Zofia | PICKRATE: 31.7% </h3>
+<p>
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Famosa e condecorada, Zofia é a segunda Especialista da Grupa Reagowania Operacyjno-Manewrowego (GROM) a entrar para a Rainbow. A primeira doi sua irmã mais nova, a operadora Elżbieta "Ela" Bosak. Quando voltou da licença-maternidade e soube que Ela juntou-se à Rainbow, Zofia não viu razão para ficar pra trás.
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+                                <!--  LOADOUT SMOKE  -->
+
+<div class="col-100 bloco-imagens-texto" >
+
+<div class="content" style="margin-left: 25%; float: left;">
+<h3 class="texto" id="loadout">LOADOUT SMOKE:</h3>
+
+
+
+
+
+
+</div>
+
+<div class="content" id="content-2" style="margin-left: 2%; float: left;">
+
+<div class="col-3 bloco-texto1 bloco-imagem">
+
+<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WExw7Kepz9uAiWAbWW457/875fc631a3cf9fcc2849d9db2989cbcd/SMG-11.png">
+
+<p> SMG-11 </p>
+
+<p>
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Metralhadora de tamanho pequeno com uma alta taxa de incêndio. Pacote letal em mãos disciplinadas.
+
+</a> 
+
+</p>
+
+</div>
+
+<div class="col-3 bloco-texto1 bloco-imagem	">
+
+<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/0oneJNsBR06QjuowxwtHG/bd3b391c6eec2bd615f2ed83197a13ac/FMG-9.png">
+
+<p> FMG-9 </p>
+
+<p>
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Metralhadora de 9 mm perto da faixa intermediária, com recuo moderado e alta taxa de tiro.
+
+</a>
+
+</p>
+
+</div>
+
+
+<div class="col-3 bloco-texto1 bloco-imagem">
+
+<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2zRHmgqENNiZqXQxC9Rsbj/e6542407c642f9b7c5a4546afb6db30a/M590A1.png">
+
+<p> M590A1 </p>
+
+<p>
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Espingarda de ação de bomba de calibre 12 preferida pelo SAS, ideal a curta distância.
+
+</a>
+
+</p>
+
+</div>
+
+<div class="col-3 bloco-texto1 bloco-imagem">
+
+<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3ZbADU6FxBqdvcA8vCpYhn/6c69d61202364fa420e2a319d817c6f3/Remote-Gas-Grenade.png">
+
+<p> GRANADA DE GÁS REMOTA </p>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px; ">
+
+Recipiente jogável contendo um gás tóxico. Adere a qualquer superfície e pode ser detonado remotamente à vontade.
+
+</a> 
+
+</p>
+
+
+</div>
+
+<div class="col-3 bloco-texto1 bloco-imagem">
+<div class="col-5">
+<div class="slide-gun">
+
+
+
+<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/RTQvPQcywlRwUS1FjIKCX/6fc72fee2191c2e723276bc10ae4114e/P226_Mk_25.png"> 
+
+<p>	P226 MK 25 </p>         
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; font-size:20px;">
+
+Revólver SAS de 9 mm com uma revista grande. É um ótimo aliado para ataques de curto e médio alcance.
+
+</a>
+
+</p>
+
+</div> 
+
+</div>
+
+</div>
+
+<div class="col-3 bloco-texto1 bloco-imagem">
+
+<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7igaibxuCcSpWDkZensEJS/bfa2cef52f3d860b7a06c2b4d7a6340e/Barbed_wire.png">
+
+<p>  ARAME FARPADO </p>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left; font-size:20px; ">
+
+Pode ser equipado como parte de um equipamento de partida por Defensores, alternativa a outros equipamentos, como o Escudo	 ou Explosivos C4.
+
+</a>
+
+</p>
+
+</div>
+
+<div class="col-3 bloco-texto1 bloco-imagem">
+
+<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/W0WE0X2VQlxwWIAFCJ6Jm/523650a39de5a23dd9520d7299c9e25a/Deployable_Shield.png">
+
+<p>  ESCUDO AJUSTÁVEL </p>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left; font-size:20px; ">
+
+Pode ser equipado como parte de um equipamento de partida por Defensores, alternativa a outros equipamentos, como o Escudo	 ou Explosivos C4.
+
+</a>
+
+</p>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+<div class="col-100 bloco-logos">
+
+<div class="content">
+
+<div class="col-4">
+
+<a href="https://www.lenovo.com/br/pt?Redirect=False"><img alt="LENOVO" title="LENOVO" src="img/patrocinio.png" /></a>
+
+
+
+</div>
+
+<div class="col-4">
+
+<a href="https://play.eslgaming.com/brazil"><img alt="ESL" title="ESLgaming" src="img/patrocinio1.png" /></a>
+</div>
+
+<div class="col-4">
+
+<a href="https://www.acer.com/ac/pt/PT/content/predator-home"><img alt="predator" title="Predator" src="img/patrocinio2.png" />
+</a>
+
+</div>
+
+<div class="col-4">
+
+<a href="https://www.corsair.com/lm/de/ "><img alt="CORSAIR" title="CORSAIR" src="img/patrocinio3.png" />
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<div class="col-100 footer">
+
+<div class="content">
+
+<div class="col-4">
+<h3> TEMPORADAS ANO 4 </h3>
+
+<p>OPERAÇÃO SHIFTING TIDES</p>
+
+<p class="clock"> DEZEMBRO DE 2019 <p>
+
+<p>OPERAÇÃO EMBER RISE</p>
+
+<p class="clock">SETEMBRO 2019  <p>
+
+<p>OPERAÇÃO PHANTON SIGHT</p>
+
+<p class="clock"> ABRIL DE 2019 <p>
+
+<p>OPERAÇÃO BURNT HORIZON</p>
+
+<p class="clock">MARÇO 2019  <p>
+</div>
+</div> 
+<div class="col-4">
+<h3> REQUISITOS MÍNIMOS  </h3>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; ">
+
+SO: Windows 7, Windows 8.1, Windows 10 (64bit versions required)
+Processador: Intel Core i3 560 @ 3.3 GHz or AMD Phenom II X4 945 @ 3.0 GHz
+Memória: 6 GB de RAM
+Placa de vídeo: NVIDIA GeForce GTX 460 or AMD Radeon HD 5870 (DirectX-11 compliant with 1GB of VRAM)
+Rede: Conexão de internet banda larga
+Armazenamento: 61 GB de espaço disponível
+Placa de som: DirectX® 9.0c compatible sound card with latest drivers.
+
+</a>
+
+</p>
+
+</div>
+
+<div class="col-4">
+
+<h3>  REQUISITOS RECOMENDADOS  </h3>
+
+<p>
+
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; ">
+
+SO: Windows 7 SP1, Windows 8.1, Windows 10 (64bit versions required)
+Processador: Intel Core i5-2500K @ 3.3 GHz or better or AMD FX-8120 @ 3.1 Ghz or better
+Memória: 8 GB de RAM
+Placa de vídeo: NVIDIA GeForce GTX 670 (or GTX 760 / GTX 960) or AMD Radeon HD 7970 (or R9 280x [2GB VRAM] / R9 380 / Fury X)
+Rede: Conexão de internet banda larga
+Armazenamento: 61 GB de espaço disponível
+Placa de som: DirectX® 9.0c compatible sound card 5.1 with latest drivers.
+
+</a>
+
+</p>
+
+</div>
+
+<div class="col-4">
+
+<h3>  SOBRE ESTE JOGO </h3>
+
+<p>
+<a class='texto' style="margin-left: 0%; float: left;font-family: 'Bebas Neue', cursive; ">
+
+Domine a arte da destruição e do uso de gadgets em Tom Clancy’s Rainbow Six Siege. Enfrente combates intensos em curta distância, alta letalidade, decisões táticas, jogabilidade em equipe e ação explosiva a todo momento. Vivencie uma nova era de tiroteios ferozes e estratégia de alto nível nascida do grande legado dos jogos de Tom Clancy's Rainbow Six passados.
+
+</a>
+
+</p>
+
+<p class="local"> 
+
+</br>
+
+<a class='texto' style="float: left;font-family: 'Bebas Neue', cursive; ">São Paulo, BR <p>
+
+<p class="E-mail">RainbowSixSiege@Ubisoft.com<p>
+
+<p class="Telefone">55+(11)94002-8922</p>
+
+</a>
+</div>
+</div>
+</div>
+</footer>
+<div class="col-100 footer-2">
+<div class="content">
+<p>
+<a class='texto' style="margin-left: 33%; float: left;font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center;" >  
+AUTOR DO SITE: Guilherme Ferreira
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+<script type="text/javascript" src="./js/jquery.js"></script>
+
+<script type="text/javascript" src="./js/jquery-migrate.js"></script>
+
+<script type="text/javascript" src="./js/slick.min.js"></script>
+
+<script type="text/javascript" src="./js/main.js"></script>
+</div>
 </body>
 
 </html>
