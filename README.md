@@ -29,7 +29,7 @@ GUILHERME FERREIRA
 ## MOTIVOS PELO DESENVOLVIMENTO DO SITE?
 
 Conforme o aprendizado em GIT e GITHUB recentemente, decidi criar este README.md para aprimorar meus conhecimentos em GIT e GITHUB.
-* Abaixo possue as liguagens utilizadas para o desenvolvimento do site!
+* Abaixo possui as liguagens utilizadas para o desenvolvimento do site!
 - HTML5.
 - CSS.
 - Java Script.
