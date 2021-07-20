@@ -23,8 +23,8 @@ Você pode instalar o Rainbow Six Siege no seu computador clicando ao lado
 ## CONTATO COM O DESENVOLVEDOR DA PAGINA DO GITHUB: 
 
 GUILHERME FERREIRA 
-* E-mail: guilherme.borba@enext.com.br
-* Telefone: (11)99113-2465
+* E-mail: gui.2001@hotmail.com
+* Telefone: (11)99114-2375
 
 ## MOTIVOS PELO DESENVOLVIMENTO DO SITE?
 
